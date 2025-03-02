@@ -67,7 +67,11 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
+            # branch name, always
+            type=ref,event=branch
+            # latest, if branch is main
             type=raw,value=latest,enable={{is_default_branch}}
+            # semver, if matching tag was pushed
             type=semver,pattern={{raw}}
 
       # Build and push Docker image with Buildx (don't push on PR)
