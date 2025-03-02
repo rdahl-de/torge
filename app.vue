@@ -1,5 +1,7 @@
 <template>
   <div>
-    <h1>Torge Rosendahl</h1>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
