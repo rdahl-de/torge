@@ -49,6 +49,9 @@ export default {
 
 .social-link .icon {
   margin: 1rem;
+
+  display: flex;
+  align-items: center;
 }
 
 .social-link .prefix {

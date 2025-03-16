@@ -4,7 +4,7 @@
     <div>
       <h2>Socials</h2>
       <CardCollection>
-        <SocialCard icon="mdi:linkedin" prefix="in/ " url="https://linkedin.com/in/torgeros">
+        <SocialCard icon="mdi:linkedin" prefix="in/" url="https://linkedin.com/in/torgeros">
           torgeros
         </SocialCard>
         <SocialCard icon="mdi:instagram" url="https://instagram.com/torgeros">
