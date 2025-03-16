@@ -1,10 +1,27 @@
 body {
-  margin: 0;
+  /* light mode settings, default theme is picked by nuxt! */
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8);
+
+  /* generic body settings */
+  margin: 0;
+  font-family: sans-serif;
 }
 
 .dark-mode body {
   background-color: #091a28;
   color: #ebf4f1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: serif;
+}
+
+.pale {
+  opacity: 0.5;
 }

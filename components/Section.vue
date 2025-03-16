@@ -1,5 +1,5 @@
 <template>
-  <div :id="id">
+  <div :id="computedId">
     <h2>{{ name }}</h2>
     <slot />
   </div>
@@ -11,14 +11,15 @@ export default {
     name: {
       type: String,
       required: true
+    },
+    id: {
+      type: String,
+      required: false
     }
   },
   computed: {
-    id(): string {
-      return this.name
-        .toLowerCase()
-        .replace(/[\s-]+/g, '-') // Replace spaces (and hyphens) with hyphens
-        .replace(/[^\w-]/g, ''); // Remove special characters
+    computedId(): string {
+      return this.id ?? slug(this.name)
     }
   }
 };

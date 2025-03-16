@@ -5,7 +5,7 @@
         <Icon :name="icon" />
       </span>
       <span class="text">
-        <span class="prefix">{{ prefix }}</span>
+        <span class="pale">{{ prefix }}</span>
         <span class="name">
           <slot />
         </span>
@@ -58,10 +58,6 @@ export default {
 .social-link .text {
   display: flex;
   align-items: baseline;
-}
-
-.social-link .prefix {
-  opacity: .5;
 }
 
 .social-link .name {
