@@ -1,12 +1,14 @@
 <template>
   <div class="social-card">
     <a :href="url" target="_blank" rel="me noopener noreferrer" class="social-link">
-      <div class="icon">
+      <span class="icon">
         <Icon :name="icon" />
-      </div>
-      <span class="prefix">{{ prefix }}</span>
-      <span class="name">
-        <slot />
+      </span>
+      <span class="text">
+        <span class="prefix">{{ prefix }}</span>
+        <span class="name">
+          <slot />
+        </span>
       </span>
     </a>
   </div>
@@ -31,8 +33,6 @@ export default {
 };
 </script>
 
-<!-- TODO: place prefix on first line of name!! -->
-
 <style scoped>
 .social-card {
   background-color: #5555;
@@ -40,18 +40,24 @@ export default {
 }
 
 .social-link {
-  color: unset;
-  text-decoration: unset;
+  color: inherit;
+  text-decoration: inherit;
 
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.social-link .icon {
   display: flex;
   align-items: center;
 }
 
-.social-link .icon {
-  margin: 1rem;
-
+.social-link .text {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .social-link .prefix {
@@ -59,7 +65,6 @@ export default {
 }
 
 .social-link .name {
-  overflow-wrap: break-word;
-  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 </style>
