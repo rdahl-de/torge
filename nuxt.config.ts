@@ -1,9 +1,13 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2025-02-22',
+  compatibilityDate: "2025-02-22",
 
-  css: [
-    '~/assets/css/main.css'
-  ],
+  app: {
+    head: {
+      link: [{ rel: "icon", href: "/img/paper_T.svg" }],
+    },
+  },
 
-  modules: ['@nuxtjs/color-mode', '@nuxt/icon']
-})
+  css: ["~/assets/css/main.css"],
+
+  modules: ["@nuxtjs/color-mode", "@nuxt/icon"],
+});
