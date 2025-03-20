@@ -1,0 +1,16 @@
+# generics
+.vscode
+
+# build outputs
+.nuxt
+.output
+node_modules
+
+# git config
+.git
+.github
+.gitignore
+
+# docker config
+.dockerignore
+Dockerfile
