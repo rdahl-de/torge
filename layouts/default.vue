@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="side-image">
-      <img src="/img/containers.jpg" alt="cargo containers stacked indefinitely">
+      <img src="/img/containers.jpg" alt="an aerial view of a container port at night">
     </div>
     <div class="content">
       <slot />

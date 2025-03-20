@@ -2,10 +2,9 @@
   <h1>Torge Rosendahl</h1>
   Full Stack Developer & Tech Lead at CUBOS
   <br />
-  M.Sc. Eletrical Engineering
-  <AI>TU Braunschweig</AI>
+  M.Sc. Eletrical Engineering <At>TU Braunschweig</At>
   <br />
-  <AI nopar>Hannover, Lower Saxony, Germany</AI>
+  <At nopar>Hannover, Lower Saxony, Germany</At>
 
   <p>
     Perfectly described by the word <em>engineer</em>.
@@ -17,17 +16,36 @@
     Always up for a coffee.
   </p>
   <Section name="Experience">
-    TODO
+    <p>
+      Full Stack Developer & Tech Lead
+      <At><a href="https://www.cubos.com/">CUBOS</a>, since 2024</At>
+    </p>
+    <p>
+      Full Stack Developer
+      <At><a href="https://ge-t.de/">ge-t</a>, 2023-2024</At>
+    </p>
+    <p>
+      Member & Head of Team
+      <At><a href="https://www.tu-braunschweig.de/carolo-cup">Team CDLC</a>, TU Braunschweig, 2020-2023</At>
+    </p>
+    <p>
+      Working Student
+      <At>ge-t, 2017-2022</At>
+    </p>
   </Section>
   <Section name="Education">
-    Master of Science Electrical Engineering
-    <AI>TU Braunschweig, 2021-2023</AI>
-    <br />
-    Visiting Student Electrical Engineering
-    <AI>McGill University, 2022-2023</AI>
-    <br />
-    Bachelor of Science Electrical Engineering
-    <AI>TU Braunschweig, 2017-2022</AI>
+    <p>
+      Master of Science Electrical Engineering
+      <At><a href="https://www.tu-braunschweig.de/">TU Braunschweig</a>, 2021-2023</At>
+    </p>
+    <p>
+      Visiting Student Electrical Engineering
+      <At><a href="https://www.mcgill.ca/">McGill University</a>, 2022-2023</At>
+    </p>
+    <p>
+      Bachelor of Science Electrical Engineering
+      <At>TU Braunschweig, 2017-2022</At>
+    </p>
   </Section>
   <Section name="Socials">
     <CardCollection>
@@ -39,7 +57,7 @@
       </SocialCard>
       <SocialCard icon="mdi:mastodon" url="https://norden.social/@torgeros">
         <!--zero width space for breaking-->
-        torgeros&#8203;@norden.social
+        torgeros<span />@norden.social
       </SocialCard>
       <SocialCard icon="mdi:github" url="https://github.com/torgeros">
         torgeros
@@ -47,8 +65,11 @@
     </CardCollection>
   </Section>
   <Section name="Languages">
-    German <AI>native proficiency</AI>
-    <br />
-    English <AI>full professional proficiency</AI>
+    <p>
+      German <At>native proficiency</At>
+    </p>
+    <p>
+      English <At>full professional proficiency</At>
+    </p>
   </Section>
 </template>

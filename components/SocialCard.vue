@@ -40,8 +40,7 @@ export default {
 }
 
 .social-link {
-  color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
 
   display: flex;
   align-items: center;
