@@ -74,5 +74,8 @@
     <p>
       English <At>full professional proficiency</At>
     </p>
+    <p>
+      French <At>elementary proficiency</At>
+    </p>
   </Section>
 </template>
