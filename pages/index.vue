@@ -49,18 +49,21 @@
   </Section>
   <Section name="Socials">
     <CardCollection>
-      <SocialCard icon="mdi:linkedin" prefix="in/" url="https://linkedin.com/in/torgeros">
+      <SocialCard icon="simple-icons:linkedin" prefix="in/" url="https://linkedin.com/in/torgeros">
         torgeros
       </SocialCard>
-      <SocialCard icon="mdi:instagram" url="https://instagram.com/torgeros">
+      <SocialCard icon="simple-icons:instagram" url="https://instagram.com/torgeros">
         torgeros
       </SocialCard>
-      <SocialCard icon="mdi:mastodon" url="https://norden.social/@torgeros">
+      <SocialCard icon="simple-icons:mastodon" url="https://norden.social/@torgeros">
         <!--zero width space for breaking-->
         torgeros<span />@norden.social
       </SocialCard>
-      <SocialCard icon="mdi:github" url="https://github.com/torgeros">
+      <SocialCard icon="simple-icons:github" url="https://github.com/torgeros">
         torgeros
+      </SocialCard>
+      <SocialCard icon="simple-icons:matrix" url="https://matrix.to/#/@torge:rdahl.de">
+        torge:rdahl.de
       </SocialCard>
     </CardCollection>
   </Section>
