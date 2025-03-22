@@ -7,7 +7,7 @@
 <style scoped>
 div {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: .5rem;
 }
 </style>

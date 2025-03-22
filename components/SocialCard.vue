@@ -35,8 +35,8 @@ export default {
 
 <style scoped>
 .social-card {
-  background-color: #5555;
-  border-radius: 1rem;
+  border: 1px dotted;
+  border-radius: 5px;
 }
 
 .social-link {
