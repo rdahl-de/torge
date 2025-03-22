@@ -6,6 +6,12 @@ This repository contains the source code of [torge.rdahl.de](https://torge.rdahl
 
 This project is based on the [nuxt](https://nuxt.com/) framework.
 
+After cloning, run
+
+```bash
+npm install
+```
+
 To debug, use
 
 ```bash
