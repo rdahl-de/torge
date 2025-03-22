@@ -3,6 +3,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      title: "Torge Rosendahl",
       link: [{ rel: "icon", href: "/img/paper_T.svg" }],
     },
   },
