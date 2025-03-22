@@ -16,36 +16,36 @@
     Always up for a coffee.
   </p>
   <Section name="Experience">
-    <p>
+    <CvEntry>
       Full Stack Developer & Tech Lead
       <At><a href="https://www.cubos.com/">CUBOS</a>, since 2024</At>
-    </p>
-    <p>
+    </CvEntry>
+    <CvEntry>
       Full Stack Developer
       <At><a href="https://ge-t.de/">ge-t</a>, 2023-2024</At>
-    </p>
-    <p>
+    </CvEntry>
+    <CvEntry>
       Member & Head of Team
       <At><a href="https://www.tu-braunschweig.de/carolo-cup">Team CDLC</a>, TU Braunschweig, 2020-2023</At>
-    </p>
-    <p>
+    </CvEntry>
+    <CvEntry>
       Working Student
       <At>ge-t, 2017-2022</At>
-    </p>
+    </CvEntry>
   </Section>
   <Section name="Education">
-    <p>
+    <CvEntry>
       Master of Science Electrical Engineering
       <At><a href="https://www.tu-braunschweig.de/">TU Braunschweig</a>, 2021-2023</At>
-    </p>
-    <p>
+    </CvEntry>
+    <CvEntry>
       Visiting Student Electrical Engineering
       <At><a href="https://www.mcgill.ca/">McGill University</a>, 2022-2023</At>
-    </p>
-    <p>
+    </CvEntry>
+    <CvEntry>
       Bachelor of Science Electrical Engineering
       <At>TU Braunschweig, 2017-2022</At>
-    </p>
+    </CvEntry>
   </Section>
   <Section name="Socials">
     <CardCollection>
@@ -56,8 +56,7 @@
         torgeros
       </SocialCard>
       <SocialCard icon="simple-icons:mastodon" url="https://norden.social/@torgeros">
-        <!--zero width space for breaking-->
-        torgeros<span />@norden.social
+        torgeros<wbr>@norden.social
       </SocialCard>
       <SocialCard icon="simple-icons:github" url="https://github.com/torgeros">
         torgeros
@@ -68,14 +67,14 @@
     </CardCollection>
   </Section>
   <Section name="Languages">
-    <p>
+    <CvEntry>
       German <At>native proficiency</At>
-    </p>
-    <p>
+    </CvEntry>
+    <CvEntry>
       English <At>full professional proficiency</At>
-    </p>
-    <p>
+    </CvEntry>
+    <CvEntry>
       French <At>elementary proficiency</At>
-    </p>
+    </CvEntry>
   </Section>
 </template>
