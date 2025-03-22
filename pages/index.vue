@@ -9,7 +9,7 @@
   <p>
     Perfectly described by the word <em>engineer</em>.
     <br />
-    Passionate at solving problems and growing maintainable infrastructures.
+    Passionate about solving problems and growing maintainable infrastructures.
     <br />
     Volleyball player and volunteer firefighter.
     <br />
