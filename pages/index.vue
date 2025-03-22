@@ -1,5 +1,5 @@
 <template>
-  <h1>Torge Rosendahl</h1>
+  <h1>Torge Rosendahl <span class="pale" style="font-size: 1rem;">{{ age }}, he/him</span></h1>
   Full Stack Developer & Tech Lead at CUBOS
   <br />
   M.Sc. Eletrical Engineering <At>TU Braunschweig</At>
@@ -78,3 +78,9 @@
     </CvEntry>
   </Section>
 </template>
+
+<script setup lang="ts">
+const age = computed(() =>
+  new Date(Date.now() - Date.parse('2001-04-08T00:00:00+01:00')).getUTCFullYear() - 1970
+)
+</script>
