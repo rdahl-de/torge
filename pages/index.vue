@@ -21,7 +21,7 @@
       <At><a href="https://www.cubos.com/">CUBOS</a>, since 2024</At>
     </CvEntry>
     <CvEntry>
-      Full Stack Developer
+      Embedded Software Developer
       <At><a href="https://ge-t.de/">ge-t</a>, 2023-2024</At>
     </CvEntry>
     <CvEntry>
