@@ -45,4 +45,5 @@ break lines cleanly between elements and keep blocks together
   flex-flow: row wrap;
   /* browser deletes whitespace between flex elements */
   column-gap: 0.25em;
+  align-items: baseline;
 }
