@@ -6,7 +6,7 @@
 
 body {
   /* light mode settings, default theme is picked by nuxt! */
-  background-color: var(--primary-light);
+  background-color: white;
   color: var(--primary-ocean);
 
   /* generic body settings */
