@@ -36,3 +36,13 @@ a {
   color: inherit;
   text-decoration: underline;
 }
+
+/*
+break lines cleanly between elements and keep blocks together
+*/
+.cleanlbr {
+  display: flex;
+  flex-flow: row wrap;
+  /* browser deletes whitespace between flex elements */
+  column-gap: 0.25em;
+}

@@ -1,13 +1,5 @@
 <template>
-  <p class="cventry">
+  <p class="cleanlbr">
     <slot />
   </p>
 </template>
-
-<style>
-.cventry {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-</style>

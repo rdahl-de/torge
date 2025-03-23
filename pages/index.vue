@@ -1,9 +1,10 @@
 <template>
-  <h1>Torge Rosendahl <span class="pale" style="font-size: 1rem;">{{ age }}, he/him</span></h1>
+  <h1 class="cleanlbr">Torge Rosendahl <span class="pale" style="font-size: 1rem;">{{ age }}, he/him</span></h1>
   Full Stack Developer & Tech Lead at CUBOS
   <br />
-  M.Sc. Eletrical Engineering <At>TU Braunschweig</At>
-  <br />
+  <span class="cleanlbr">
+    M.Sc. Eletrical Engineering <At>TU Braunschweig</At>
+  </span>
   <At nopar>Hannover, Lower Saxony, Germany</At>
 
   <p>
@@ -30,7 +31,7 @@
     </CvEntry>
     <CvEntry>
       Working Student
-      <At>ge-t, 2017-2022</At>
+      <At><a href="https://ge-t.de/">ge-t</a>, 2017-2022</At>
     </CvEntry>
   </Section>
   <Section name="Education">
@@ -44,7 +45,7 @@
     </CvEntry>
     <CvEntry>
       Bachelor of Science Electrical Engineering
-      <At>TU Braunschweig, 2017-2022</At>
+      <At><a href="https://www.tu-braunschweig.de/">TU Braunschweig</a>, 2017-2022</At>
     </CvEntry>
   </Section>
   <Section name="Socials">
