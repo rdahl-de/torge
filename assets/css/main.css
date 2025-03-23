@@ -1,7 +1,13 @@
+:root {
+  /* these two colors are loosely based on containers.jpg */
+  --primary-ocean: #071b1a;
+  --primary-light: #ebf4f1;
+}
+
 body {
   /* light mode settings, default theme is picked by nuxt! */
-  background-color: #fff;
-  color: rgba(0, 0, 0, 0.8);
+  background-color: var(--primary-light);
+  color: var(--primary-ocean);
 
   /* generic body settings */
   margin: 0;
@@ -9,8 +15,8 @@ body {
 }
 
 .dark-mode body {
-  background-color: #091a28;
-  color: #ebf4f1;
+  background-color: var(--primary-ocean);
+  color: var(--primary-light);
 }
 
 h1,
