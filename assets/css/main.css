@@ -19,6 +19,14 @@ body {
   color: var(--primary-light);
 }
 
+.pale {
+  color: #6d7877;
+}
+
+.dark-mode .pale {
+  color: #939f9d;
+}
+
 h1,
 h2,
 h3,
@@ -26,10 +34,6 @@ h4,
 h5,
 h6 {
   font-family: serif;
-}
-
-.pale {
-  opacity: 0.5;
 }
 
 a {
