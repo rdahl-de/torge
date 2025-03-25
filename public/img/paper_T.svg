@@ -10,9 +10,9 @@ id="svg1"
 xmlns="http://www.w3.org/2000/svg"
 xmlns:svg="http://www.w3.org/2000/svg">
     <style>
-        path { fill: black; }
+        path { fill: #071b1a; }
         @media (prefers-color-scheme: dark) {
-            path { fill: white; }
+            path { fill: #ebf4f1; }
         }
     </style>
     <g
@@ -27,11 +27,11 @@ xmlns:svg="http://www.w3.org/2000/svg">
         d="m 80,120 h 20 l 0,40 H 80 Z"
         id="path21" />
         <path
-        style="fill-opacity:0.1"
+        style="fill-opacity:0.5"
         d="m 100,160 5.592907,-23.67897 -5.592907,-1.32103 z"
         id="path23" />
         <path
-        style="fill-opacity:0.1"
+        style="fill-opacity:0.5"
         d="m 80,120 h 50 v -20 H 100 Z"
         id="path28" />
         <path

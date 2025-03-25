@@ -4,27 +4,30 @@
   --primary-light: #ebf4f1;
 }
 
+.dark-mode body {
+  --fg: var(--primary-light);
+  --bg: var(--primary-ocean);
+  --fg-pale: #939f9d;
+}
+
+.light-mode body {
+  --fg: var(--primary-ocean);
+  --bg: white;
+  --fg-pale: #6d7877;
+}
+
 body {
   /* light mode settings, default theme is picked by nuxt! */
-  background-color: white;
-  color: var(--primary-ocean);
+  background-color: var(--bg);
+  color: var(--fg);
 
   /* generic body settings */
   margin: 0;
   font-family: sans-serif;
 }
 
-.dark-mode body {
-  background-color: var(--primary-ocean);
-  color: var(--primary-light);
-}
-
 .pale {
-  color: #6d7877;
-}
-
-.dark-mode .pale {
-  color: #939f9d;
+  color: var(--fg-pale);
 }
 
 h1,

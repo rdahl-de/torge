@@ -35,7 +35,8 @@ export default {
 
 <style scoped>
 .social-card {
-  border: 1px dotted;
+  border: 1px solid;
+  border-color: var(--fg-pale);
   border-radius: 5px;
 }
 
