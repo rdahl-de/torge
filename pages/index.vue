@@ -62,6 +62,9 @@
       <SocialCard icon="simple-icons:github" url="https://github.com/torgeros">
         torgeros
       </SocialCard>
+      <SocialCard icon="simple-icons:codeberg" url="https://codeberg.org/torgeros">
+        torgeros
+      </SocialCard>
       <SocialCard icon="simple-icons:matrix" url="https://matrix.to/#/@torge:rdahl.de">
         torge:rdahl.de
       </SocialCard>
